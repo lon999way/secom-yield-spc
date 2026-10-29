@@ -1,0 +1,5 @@
+bucket,sensors,avg_missing_share
+0 none,52,0.0
+1 under 5%,486,0.005
+2 5% to 50%,24,0.217
+3 50% or more,28,0.69

@@ -1,0 +1,6 @@
+.venv/
+data/
+__pycache__/
+.pytest_cache/
+# internal notes, not for the public repo
+00_*.md

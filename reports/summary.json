@@ -1,0 +1,345 @@
+{
+ "runs": 1567,
+ "fails": 104,
+ "first_run": "2008-07-19 11:55:00",
+ "last_run": "2008-10-17 06:07:00",
+ "sensors": 590,
+ "missing_buckets": [
+  {
+   "bucket": "0 none",
+   "sensors": 52,
+   "avg_missing_share": 0.0
+  },
+  {
+   "bucket": "1 under 5%",
+   "sensors": 486,
+   "avg_missing_share": 0.005
+  },
+  {
+   "bucket": "2 5% to 50%",
+   "sensors": 24,
+   "avg_missing_share": 0.217
+  },
+  {
+   "bucket": "3 50% or more",
+   "sensors": 28,
+   "avg_missing_share": 0.69
+  }
+ ],
+ "constant_sensors": 116,
+ "weekly_yield": [
+  {
+   "week_start": "2008-07-14",
+   "yield": 0.7692
+  },
+  {
+   "week_start": "2008-07-21",
+   "yield": 0.9048
+  },
+  {
+   "week_start": "2008-07-28",
+   "yield": 0.7917
+  },
+  {
+   "week_start": "2008-08-04",
+   "yield": 0.8704
+  },
+  {
+   "week_start": "2008-08-11",
+   "yield": 0.8627
+  },
+  {
+   "week_start": "2008-08-18",
+   "yield": 0.8942
+  },
+  {
+   "week_start": "2008-08-25",
+   "yield": 0.9586
+  },
+  {
+   "week_start": "2008-09-01",
+   "yield": 0.985
+  },
+  {
+   "week_start": "2008-09-08",
+   "yield": 0.9579
+  },
+  {
+   "week_start": "2008-09-15",
+   "yield": 0.9675
+  },
+  {
+   "week_start": "2008-09-22",
+   "yield": 0.9759
+  },
+  {
+   "week_start": "2008-09-29",
+   "yield": 0.9112
+  },
+  {
+   "week_start": "2008-10-06",
+   "yield": 0.942
+  },
+  {
+   "week_start": "2008-10-13",
+   "yield": 0.9894
+  }
+ ],
+ "pchart": {
+  "days": 86,
+  "center_fail_rate": 0.0664,
+  "days_above_ucl": [
+   "2008-07-25",
+   "2008-07-29",
+   "2008-08-10",
+   "2008-08-17",
+   "2008-08-20"
+  ],
+  "days_rule4_below_center": [
+   "2008-09-27",
+   "2008-10-17"
+  ]
+ },
+ "screen": {
+  "screened": 446,
+  "q_overall_lt_05": 20,
+  "tested_within_time": 40,
+  "q_within_time_lt_05": 10,
+  "dropped_after_time_check": [
+   103,
+   247,
+   519,
+   510,
+   129,
+   28,
+   33,
+   316,
+   385,
+   124,
+   290,
+   180,
+   125,
+   348,
+   40
+  ]
+ },
+ "multi_sensor_events": {
+  "sensors_checked": 460,
+  "median_extreme_per_run": 2.0,
+  "p99_extreme_per_run": 23.0,
+  "runs": [
+   {
+    "run_id": 275,
+    "ts": "2008-08-18 17:37:00",
+    "extreme_sensors": 43,
+    "fail": 0
+   },
+   {
+    "run_id": 457,
+    "ts": "2008-08-27 22:58:00",
+    "extreme_sensors": 44,
+    "fail": 0
+   },
+   {
+    "run_id": 466,
+    "ts": "2008-08-28 05:00:00",
+    "extreme_sensors": 34,
+    "fail": 0
+   },
+   {
+    "run_id": 634,
+    "ts": "2008-09-01 19:54:00",
+    "extreme_sensors": 42,
+    "fail": 1
+   },
+   {
+    "run_id": 1397,
+    "ts": "2008-10-07 11:16:00",
+    "extreme_sensors": 30,
+    "fail": 0
+   },
+   {
+    "run_id": 1458,
+    "ts": "2008-10-11 07:39:00",
+    "extreme_sensors": 40,
+    "fail": 0
+   }
+  ]
+ },
+ "signal_groups": [
+  [
+   477,
+   205,
+   341
+  ],
+  [
+   336
+  ],
+  [
+   59
+  ],
+  [
+   21
+  ],
+  [
+   200
+  ],
+  [
+   122
+  ],
+  [
+   121
+  ],
+  [
+   102
+  ]
+ ],
+ "charted_sensors": [
+  477,
+  336,
+  59,
+  21,
+  200
+ ],
+ "control_charts": [
+  {
+   "sensor": 477,
+   "center": 6.695318666666667,
+   "sigma": 3.0457402334021206,
+   "readings": 1561,
+   "flagged_points": 308,
+   "flagged_by_rule": {
+    "1": 13,
+    "2": 0,
+    "3": 15,
+    "4": 289
+   },
+   "fail_rate_flagged": 0.048701298701298704,
+   "fail_rate_not_flagged": 0.0710295291300878,
+   "fails_caught": 15,
+   "fails_total": 104,
+   "monitoring_flagged": 283,
+   "monitoring_fails_flagged": 15,
+   "monitoring_fail_rate_flagged": 0.053003533568904596,
+   "monitoring_fail_rate_not_flagged": 0.046012269938650305,
+   "monitoring_fisher_p": 0.6349053275074219
+  },
+  {
+   "sensor": 336,
+   "center": 9.072218,
+   "sigma": 2.0782125406200342,
+   "readings": 1560,
+   "flagged_points": 63,
+   "flagged_by_rule": {
+    "1": 12,
+    "2": 4,
+    "3": 4,
+    "4": 46
+   },
+   "fail_rate_flagged": 0.07936507936507936,
+   "fail_rate_not_flagged": 0.06613226452905811,
+   "fails_caught": 5,
+   "fails_total": 104,
+   "monitoring_flagged": 44,
+   "monitoring_fails_flagged": 5,
+   "monitoring_fail_rate_flagged": 0.11363636363636363,
+   "monitoring_fail_rate_not_flagged": 0.04523026315789474,
+   "monitoring_fisher_p": 0.05377123206183558
+  },
+  {
+   "sensor": 59,
+   "center": 11.647283999999999,
+   "sigma": 10.768656158827298,
+   "readings": 1560,
+   "flagged_points": 1125,
+   "flagged_by_rule": {
+    "1": 5,
+    "2": 6,
+    "3": 417,
+    "4": 1092
+   },
+   "fail_rate_flagged": 0.04088888888888889,
+   "fail_rate_not_flagged": 0.13333333333333333,
+   "fails_caught": 46,
+   "fails_total": 104,
+   "monitoring_flagged": 1082,
+   "monitoring_fails_flagged": 41,
+   "monitoring_fail_rate_flagged": 0.03789279112754159,
+   "monitoring_fail_rate_not_flagged": 0.10674157303370786,
+   "monitoring_fisher_p": 0.0003734439754195272
+  },
+  {
+   "sensor": 21,
+   "center": -5498.0975,
+   "sigma": 732.0686271021609,
+   "readings": 1565,
+   "flagged_points": 120,
+   "flagged_by_rule": {
+    "1": 23,
+    "2": 5,
+    "3": 60,
+    "4": 44
+   },
+   "fail_rate_flagged": 0.1,
+   "fail_rate_not_flagged": 0.0629757785467128,
+   "fails_caught": 12,
+   "fails_total": 103,
+   "monitoring_flagged": 84,
+   "monitoring_fails_flagged": 3,
+   "monitoring_fail_rate_flagged": 0.03571428571428571,
+   "monitoring_fail_rate_not_flagged": 0.04741744284504657,
+   "monitoring_fisher_p": 0.7928954350626105
+  },
+  {
+   "sensor": 200,
+   "center": 16.657799999999998,
+   "sigma": 5.585165682297967,
+   "readings": 1560,
+   "flagged_points": 49,
+   "flagged_by_rule": {
+    "1": 5,
+    "2": 2,
+    "3": 10,
+    "4": 33
+   },
+   "fail_rate_flagged": 0.08163265306122448,
+   "fail_rate_not_flagged": 0.06618133686300463,
+   "fails_caught": 4,
+   "fails_total": 104,
+   "monitoring_flagged": 41,
+   "monitoring_fails_flagged": 4,
+   "monitoring_fail_rate_flagged": 0.0975609756097561,
+   "monitoring_fail_rate_not_flagged": 0.04593929450369155,
+   "monitoring_fisher_p": 0.12658804839390622
+  }
+ ],
+ "models": [
+  {
+   "k_features": 20,
+   "cv10_ber": 0.325,
+   "time_split_ber": 0.376,
+   "time_split_test_runs": 471,
+   "time_split_test_fails": 26,
+   "time_split_fails_caught": 9,
+   "time_split_false_alarms": 44
+  },
+  {
+   "k_features": 40,
+   "cv10_ber": 0.34,
+   "time_split_ber": 0.476,
+   "time_split_test_runs": 471,
+   "time_split_test_fails": 26,
+   "time_split_fails_caught": 6,
+   "time_split_false_alarms": 81
+  },
+  {
+   "k_features": 80,
+   "cv10_ber": 0.381,
+   "time_split_ber": 0.436,
+   "time_split_test_runs": 471,
+   "time_split_test_fails": 26,
+   "time_split_fails_caught": 5,
+   "time_split_false_alarms": 29
+  }
+ ]
+}
